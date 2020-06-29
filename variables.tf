@@ -25,6 +25,7 @@ variable "name" {
 
 variable "owner" {
   description = ""
+  default = "jrreid"
 }
 
 variable "key_name" {
