@@ -8,7 +8,7 @@ variable "ami_id" {
   default     = "ami-079f96ce4a4a7e1c7"
 }
 
-variable "count" {
+variable "server_count" {
   description = "How many servers to provision"
   default     = 1
 }
