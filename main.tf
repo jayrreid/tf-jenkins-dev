@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "jenkins-demo" {
-  count         = "${var.count}"
+  count         = "${var.server_count}"
   ami           = "${var.ami_id}"
   instance_type = "${var.instance_type}"
 
