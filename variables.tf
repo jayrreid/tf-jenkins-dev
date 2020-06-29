@@ -30,7 +30,7 @@ variable "owner" {
 
 variable "key_name" {
   description = ""
-  default = "key"
+  default = "certbook"
 }
 
 variable "ttl" {
