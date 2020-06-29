@@ -29,6 +29,7 @@ variable "owner" {
 
 variable "key_name" {
   description = ""
+  default = "key"
 }
 
 variable "ttl" {
